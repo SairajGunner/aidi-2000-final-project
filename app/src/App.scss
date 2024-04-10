@@ -1,0 +1,9 @@
+@use "./colors.scss" as colors;
+
+html {
+  color: colors.$primary-gold;
+}
+
+input:disabled {
+  background-color: white;
+}
