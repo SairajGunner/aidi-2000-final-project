@@ -1,0 +1,12 @@
+@use "../colors.scss" as colors;
+
+.text-box-view-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-box-view-btn {
+    color: colors$primary-gold;
+}
