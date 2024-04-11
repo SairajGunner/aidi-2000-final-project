@@ -1,12 +1,32 @@
 @use "../colors.scss" as colors;
 
 .text-box-view-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 5vh;
+  width: 50vw;
+  margin-bottom: 20px;
+}
+
+.text-box-view-input {
+  width: 80%;
+  height: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  color: colors.$primary-blue;
 }
 
 .text-box-view-btn {
-    color: colors$primary-gold;
+  padding-bottom: 10px;
+  color: colors.$primary-gold;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-box-view-btn:hover {
+  cursor: pointer;
+  text-shadow: 10px colors.$primary-gold;
 }

@@ -21,32 +21,33 @@ h1 {
 }
 
 #home-sub-header {
-  margin: 40px 0 20px 0;
+  margin: 0;
   font-size: 30px;
 }
 
-#home-role-buttons-container {
+.home-text-box-container {
   min-width: 70%;
-  margin-top: 150px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.home-role-button {
+.home-process-btn {
+  margin-top: 20px;
   border: 1px solid black;
-  padding: 50px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 20px;
   font-weight: bolder;
   text-align: center;
-  min-width: 200px;
+  min-width: 100px;
   background-color: colors.$primary-gold;
   color: colors.$primary-blue;
   cursor: pointer;
 }
 
-.home-role-button:hover {
+.home-process-btn:hover {
   border: none;
   -webkit-box-shadow: 0 0 10px colors.$primary-gold;
   box-shadow: 0 0 20px colors.$primary-gold;
