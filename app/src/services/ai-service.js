@@ -1,12 +1,10 @@
-import serverConfig from "../serverConfig.json";
-
-const aiEndpoint = serverConfig.AI_URL;
+const aiEndpoint = "http://localhost:5000";
 
 export const AIService = {
   getPersonalityTypes: (data) => {
-    return fetch(aiEndpoint + "/predict", {
+    return fetch(aiEndpoint + "/process", {
       method: "POST",
-      body: JSON.stringify({ introduction: data }),
+      body: JSON.stringify({ sentences: data }),
       headers: {
         "Content-Type": "application/json"
       }
